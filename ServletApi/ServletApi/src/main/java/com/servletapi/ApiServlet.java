@@ -24,4 +24,3 @@ public class ApiServlet extends HttpServlet {
             public void destroy(){
     }
 }
-
