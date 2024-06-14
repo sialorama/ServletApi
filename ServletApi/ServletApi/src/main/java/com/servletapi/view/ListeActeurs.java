@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 @WebServlet(name = "ListeActeurs",value="/ListeActeurs")
@@ -23,5 +24,6 @@ public class ListeActeurs extends HttpServlet {
         request.setAttribute("acteurs",acteurs);
         RequestDispatcher dispatch = request.getRequestDispatcher("/liste-des-acteurs.jsp");
         dispatch.forward (request, response);
+
     }
 }
