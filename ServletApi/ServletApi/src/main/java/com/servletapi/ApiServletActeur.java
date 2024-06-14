@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-@WebServlet("/ListeActeurs")
+@WebServlet("/ApiServletActeur")
 public class ApiServletActeur extends HttpServlet {
 
     @Override

@@ -6,7 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
         function fetchData() {
-            axios.get('ApiServlet')
+            axios.get('ListeActeurs')
                 .then(function (response) {
                     // handle success
                     console.log(response.data);
